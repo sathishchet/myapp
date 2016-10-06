@@ -4,10 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { OtherComponent, AnotherComponent } from './other';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OtherComponent,
+    AnotherComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
